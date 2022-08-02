@@ -7,7 +7,7 @@
 <script lang="ts">
 import { Prop, Vue, Component } from "vue-property-decorator";
 import PostListItem from "./PostListItem.vue";
-import { Post as PostStructure } from "@/Interfaces/Post";
+import { Post as PostStructure } from "@/Interfaces";
 
 @Component({
   components: { PostListItem },

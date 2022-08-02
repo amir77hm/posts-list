@@ -14,4 +14,8 @@ export default class PostsBroker {
   public async getPostById(id: string): Promise<any> {
     return await axios.get(`${this._baseUrl}/posts/${id}`);
   }
+
+  public async getcommentsByPostId(id: string): Promise<any> {
+    return await axios.get(`${this._baseUrl}/posts/${id}/comments`);
+  }
 }

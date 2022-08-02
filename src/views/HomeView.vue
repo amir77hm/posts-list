@@ -20,7 +20,7 @@
 import Vue from "vue";
 import PostList from "@/components/posts/PostList.vue";
 import Post from "@/services/posts";
-import { Post as PostStructure } from "@/Interfaces/Post";
+import { Post as PostStructure } from "@/Interfaces";
 
 export default Vue.extend({
   name: "Home",
